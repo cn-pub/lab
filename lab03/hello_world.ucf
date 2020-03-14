@@ -1,0 +1,2 @@
+NET "button"        LOC = B8;
+NET "led"           LOC = U16;
