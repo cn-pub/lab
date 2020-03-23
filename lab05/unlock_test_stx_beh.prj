@@ -1,0 +1,5 @@
+verilog isim_temp "counter.v"
+verilog isim_temp "change_state.v"
+verilog isim_temp "unlock.v"
+verilog isim_temp "unlock_test.v"
+verilog isim_temp "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
