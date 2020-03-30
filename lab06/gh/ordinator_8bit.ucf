@@ -1,0 +1,42 @@
+//////////////////////////////////////////////////////////////////////////////////
+// ACS
+// Computer Design 1
+//  
+// Module Name:  		ordinator_8bit
+// Project Name:		Laborator 6
+// Target Devices: 		Digilent Nexys 3
+//////////////////////////////////////////////////////////////////////////////////
+
+NET "digit<0>"   		LOC = N16;
+NET "digit<1>"   		LOC = N15;
+NET "digit<2>"   		LOC = P18;
+NET "digit<3>"   		LOC = P17;
+NET "segment<0>"    	LOC = T17;
+NET "segment<1>"    	LOC = T18;
+NET "segment<2>"    	LOC = U17;
+NET "segment<3>"    	LOC = U18;
+NET "segment<4>"    	LOC = M14;
+NET "segment<5>"    	LOC = N14;
+NET "segment<6>"    	LOC = L14;
+NET "digit_point"    	LOC = M13;
+NET "progress<0>"    	LOC = U16;
+NET "progress<1>"    	LOC = V16;
+NET "progress<2>"    	LOC = U15;
+NET "progress<3>"    	LOC = V15;
+NET "progress<4>"    	LOC = M11;
+NET "progress<5>"    	LOC = N11;
+NET "progress<6>"    	LOC = R11;
+NET "progress<7>"    	LOC = T11;
+NET "operand<0>"    	LOC = T10;
+NET "operand<1>"    	LOC = T9;
+NET "operand<2>"    	LOC = V9;
+NET "operand<3>"    	LOC = M8;
+NET "operand<4>"    	LOC = N8;
+NET "operand<5>"    	LOC = U8;
+NET "operand<6>"    	LOC = V8;
+NET "operand<7>"    	LOC = T5;
+NET "add_button"		LOC = D9;
+NET "sub_button"		LOC = C4;
+NET "op_button"			LOC = B8;
+NET "reset"				LOC = A8;
+NET "clk"				LOC = V10;
