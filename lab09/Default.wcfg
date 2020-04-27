@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Z:/Downloads/lab09_sol/test_cpu_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_cpu" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/test_cpu/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/program_counter" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_counter[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/program_counter_if" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_counter_if[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter_if[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/program_counter_id" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_counter_id[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter_id[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/program_counter_ex" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_counter_ex[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter_ex[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/program_counter_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_counter_mem[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter_mem[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/program_counter_wb" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">program_counter_wb[7:0]</obj_property>
+      <obj_property name="ObjectShortName">program_counter_wb[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_cpu/uut/registers" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">registers[31:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">registers[31:0,7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <wvobject fp_name="/test_cpu/uut/registers[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[31,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[30,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[29,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[28,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[27,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[26,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[25,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[24,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[23,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[22,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[21,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[20,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[19,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[18,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[17,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[16,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[15,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[14,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[13,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[12,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[11,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[10,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[9,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[8,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[7,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[6,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[5,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[4,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[3,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[2,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[1,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/test_cpu/uut/registers[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">registers[0,7:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
